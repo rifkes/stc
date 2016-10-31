@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=500" />
+	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, pin, pinning, fixed, sticky" />
+	<meta name="author"	content="Jan Paepke (www.janpaepke.de)" />
+	<title>Sticky Elements (pinning) - Examples - ScrollMagic</title>
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/main10.css" type="text/css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lib/modernizr.custom.min.js"></script>
+</head>
+<body>
+      <header id="top-menu">
+	      <div class="header-item">
+		      <a href="#projectsholder" id="projects" onclick="function();" style=" position: ;">Projects</a>
+	      </div>
+	      <div class="header-item">
+		      <a href="#aboutholder" id="about" onclick="function();">About</a>
+	      </div>
+	      <div class="header-item">
+		      <a href="#contactholder" id="contact" onclick="function();">Contact</a>
+	      </div>
+      </header>
+
+      <div id="introduction">
+        <div class="autoplay">
+
+          <div>
+            <div class="center centerintro">
+              <p class="intro-text">
+                Sadleir Technical Consultancy is an independent engineering consultancy with over 40 years of international experience.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="center centerintro">
+              <p class="intro-text">
+                We assist private, commercial and public sector clients in the realisation and maintenance of a variety of engineering and maritime projects.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="center centerintro">
+              <p class="intro-text">
+                Our services encompass study, analysis, reporting, design, project monitoring, procurement and on site supervision.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <div class="projects-holder">
+
+      <div id="projectsholder">
+
+		    <div class="spacer"></div>
+        <div class="container-fluid">
+
+          <div class="row projects-row">
+
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('img/ptm_trav05.jpg');">
+	                	<div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Bahamas — Great Exuma Port</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('img/e_maersk.jpg');">
+		                <div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Tanzania — Ocean and Lake Ports</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('img/uae.jpg');">
+		                <div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Lebanon — Becka’a Valley Highway Rehabilitation</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('img/bzv_grume.jpg');">
+		                <div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Morocco — Deep Water Port Container Terminal</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('http://photos.tradeholding.com/attach/hash61/92733/uae.jpg');">
+		                <div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Republic of Congo — Fluvial Transport</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-lg-4 col-ms-4">
+	            <a href="project.html">
+	              <div class="project-thumbnail-wrapper">
+	                <div class="project-thumbnail" style="background-image: url('img/spain.jpg');">
+		                <div class="project-title-homepage-holder">
+		                	<h2 class="project-title-homepage">Wales — Chemical Facility Concrete Surveys</h2>
+	                	</div>
+	                </div>
+	              </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+            	<p style="text-align: center; color: #ff3333">View more projects in our <a href="#">Project Archive</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </p>
+
+      <div id="aboutholder">
+		    <div class="spacer"></div>
+
+        <div class="container-fluid" style="">
+
+          <div class="row about-background">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-4">
+			      	<p>
+				      	Sadleir Technical Consultancy is a UK‑based independent engineering consultancy practice, established in 1995, serving the construction industry and allied professions across the field of civil engineering. We assist private, commercial and public-sector clients in the realisation of a variety of engineering and maritime transportation projects and in the maintenance of civil engineering installations. Services provided encompass study, analysis and reporting, design, procurement, on-site supervision and project monitoring.
+			      	</p>
+						</div>
+						<div class="col-xs-12 col-sm-offset-2 col-sm-4">
+			      	<p>
+								Technical and project management support are offered across a range of engineering disciplines, with specialisation in the areas of:
+							</p>
+							<ul>
+								<li>Maritime civil engineering, ports and transportation</li>
+								<li>Appraisal, structural pathology and repair management of reinforced concrete</li>
+								<li>Derelict land rehabilitation and associated surface hydrology</li>
+							</ul>
+						</div>
+					</div>
+          <div class="row about-background">
+						<div class="col-xs-12 col-sm-offset-1 col-sm-4" class="portrait-photo-holder">
+			      	<img class="portrait-photo" alt="Andrew Sadleir" src="img/and.jpg"/>
+						</div>
+            <div class="col-xs-12 col-sm-offset-2 col-sm-4">
+							<p>
+								Principal Andrew P.R. Sadleir BSc CEng MICE MASCE ACIArb has some 41 years' professional experience, having worked with leading consulting engineers, specialist contractors, project promoters and funding institutions both in the UK and overseas.
+							</p>
+			      	<p>
+				      	View Andrew Sadleir's CV in full <a>here</a>.
+			      	</p>
+						</div>
+          </div>
+          <div class="row about-background">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-4" class="portrait-photo-holder">
+			      	<img class="portrait-photo" alt="David Beatty" src="img/dave.jpg"/>
+						</div>
+						<div class="col-xs-12 col-sm-offset-2 col-sm-4">
+			      	<p>
+								In the fields of maritime and underwater engineering, we are assisted by our consultant, Capt. David Beatty AIExpE. Founder of <a href="http://divemex.co.uk/technology">Divemex</a>, Capt. Beatty is a qualified offshore diver and Master Mariner whose international CV spans over 40 years in the engineering industry.
+							</p>
+			      	<p>View David Beatty's CV in full <a>here</a>.</p>
+						</div>
+					</div>
+					<div class="row about-background">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-4">
+			      	<p>
+			      		Sadleir Technical Consultancy is based in Cornwall, in the South-West of England. Commissions are undertaken both across the UK and worldwide, and rapid mobilisation may be possible, subject to availability. By virtue of our low overheads, our fee rates are realistic and cost-effective.
+		      		</p>
+			      	<p>
+			      		We are a small team with specialised knowledge; however, where required for a particular project, we may call upon the expertise of other trusted independent consultants, covering a range of specialised disciplines.
+		      		</p>
+						</div>
+						<div class="col-xs-12 col-sm-offset-2 col-sm-4">
+				    	<p>
+					    	Please feel free to <a href="#contactholder" onclick="function();">contact us</a> to discuss your requirements.
+				    	</p>
+						</div>
+					</div>
+        </div>
+      </div>
+
+      <div id="contactholder">
+		    <div class="spacer"></div>
+		    <div class="container-fluid">
+			    <div class="row">
+				    <div class="col-xs-12 col-md-offset-1 col-md-5">
+					    <form>
+						    <h3 style="line-height: 0;">Contact Form</h3>
+						    <br>
+					    	<h6>Full name or company name</h6>
+					    	<input type="text">
+					    	<h6>Email address</h6>
+					    	<input type="text">
+					    	<h6>Daytime telephone number</h6>
+					    	<input type="text">
+					    	<h6>Evening telephone number</h6>
+					    	<input type="text">
+					    	<h6>Street address and postcode</h6>
+					    	<input type="text">
+					    	<h6>Country</h6>
+					    	<input type="text">
+					    	<h6>Message</h6>
+					    	<textarea></textarea>
+					    </form>
+		      	</div>
+		      	<style type="text/css">
+		      		.poo {
+		      			padding: 20px; 
+		      			text-align: left;
+		      		}
+		      		@media (max-width: 991px) {
+		      			.poo {
+		      				text-align: center;
+		      			}
+		      		}
+		      	</style>
+				    <div class="col-xs-12 col-md-offset-1 col-md-4 poo"><!--responsive text alignment-->
+							<h3>Get in touch</h3>
+					    <p style="max-width: 60vw; margin: 0 auto;">
+						    Please contact us either via the details below, or if it is more convenient, via the contact form. 
+					    	It is not mandatory that you complete all fields of the form, but we do ask that you supply at least your name or company name as well as a telephone number or email address, so we are able to reply to your queries.
+					    </p>
+					    <h3>Address</h3>
+			      	<p>
+				      	<a class="no-underline" target="_blank" href="https://www.google.co.uk/maps/place/13+Barons+Meadow,+Bodmin+PL31+2DD/@50.4721594,-4.7148119,17z/data=!3m1!4b1!4m5!3m4!1s0x486b7a44fd6c026b:0x18e27026897eca09!8m2!3d50.472156!4d-4.7126232">
+					      	Sadleir Technical Consultancy Ltd.<br>
+									13 Baron's Meadow<br>
+									Bodmin<br>
+									Cornwall<br>
+									PL31 2DD<br>
+									United Kingdom<br>
+								</a>
+							</p>
+							<h3>Telephone</h3>
+							<p>
+								<a class="no-underline" href="tel:+4401208264976">
+									+44 01208 264976
+								</a>
+							</p>
+							<h3>Email</h3>
+							<p>
+								<a class="no-underline" href="mailto:consult@sadleir.co.uk">
+									consult@sadleir.co.uk
+								</a>
+							</p>
+			    	</div>
+		    	</div>
+	    	</div>
+			</div>
+
+    </div>
+
+					<script type="text/javascript" src="js/slick.min.js"></script>
+
+					<script>
+
+			      $('.autoplay').slick({
+			        autoplay: true,
+			        fade: true,
+			        infinite: true,
+			        arrows: false,
+			        speed: 1000,
+			        autoplaySpeed: 4000,
+			        adaptiveHeight: false,
+			        adaptiveWidth: true,
+			        mobileFirst: true,
+			        pauseOnHover: false,
+			        pauseOnFocus: false,
+			      });
+
+			      $(window).scroll(function() {
+			      	var theHeight = $(window).height() - 80;
+			      	var winHeight = $(window).height();
+							if ($(this).scrollTop() > theHeight){  
+						    $('header').addClass("sticky");   
+						  }
+						  else{
+						    $('header').removeClass("sticky");
+						  }
+						});
+
+						$(window).scroll(function() {
+							if ($(this).scrollTop() > ($(window).height()/2)){  
+						    $('#introduction').css('opacity', '0');
+						    $('header').addClass("stickier");  
+						    $('body').css('background-color', '#ffffff');  
+						    $('body').css('color', '#003399');
+						    $('.about-background').css('background-color', '#aadfdf');
+					    } else {
+						    $('#introduction').css('opacity', '1'); 
+						    $('header').removeClass("stickier"); 
+						    $('body').css('background-color', '#003399');  
+						    $('body').css('color', '#ffffff');
+						    $('.about-background').css('background-color', 'transparent');
+						  }
+						});
+
+					var lastId,
+				    topMenu = $("#top-menu"),
+				    topMenuHeight = topMenu.outerHeight()+15,
+				    // All list items
+				    menuItems = topMenu.find("a"),
+				    // Anchors corresponding to menu items
+				    scrollItems = menuItems.map(function(){
+				      var item = $($(this).attr("href"));
+				      if (item.length) { return item; }
+			    });
+
+					// Bind click handler to menu items
+					// so we can get a fancy scroll animation
+					menuItems.click(function(e){
+					  var href = $(this).attr("href"),
+					      offsetTop = href === "#" ? 0 : $(href).offset().top;
+					  $('html, body').stop().animate({ 
+					      scrollTop: offsetTop
+					  }, 300);
+					  e.preventDefault();
+					});
+
+					// Bind to scroll
+					$(window).scroll(function(){
+					   // Get container scroll position
+					   var fromTop = $(this).scrollTop()+topMenuHeight;
+					   
+					   // Get id of current scroll item
+					   var cur = scrollItems.map(function(){
+					     if ($(this).offset().top < fromTop)
+					       return this;
+					   });
+					   // Get the id of the current element
+					   cur = cur[cur.length-1];
+					   var id = cur && cur.length ? cur[0].id : "";
+					   
+					   if (lastId !== id) {
+					       lastId = id;
+					       // Set/remove active class
+					       menuItems
+					         .parent().removeClass("header-item-active")
+					         .end().filter("[href='#"+id+"']").parent().addClass("header-item-active");
+					   }                   
+					});
+
+					
+
+					</script>
+</body>
+</html>
